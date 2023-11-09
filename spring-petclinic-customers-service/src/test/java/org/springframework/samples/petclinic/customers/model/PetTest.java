@@ -34,6 +34,6 @@ public class PetTest {
         //Act
         pet.setBirthDate(bd);
         //Assert
-        assertEquals(bd,pet.getBirthDate());
+        assertEquals(bd,pet.getBirthDate()); //silinecek
     }
 }
